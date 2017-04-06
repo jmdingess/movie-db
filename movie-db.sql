@@ -26,7 +26,7 @@ CREATE TABLE USER
   dob date NOT NULL,
   gender varchar(64),
   username varchar(16) NOT NULL,
-  password varchar(16) NOT NULL,
+  password varchar(64) NOT NULL,
   PRIMARY KEY (user_id)
 );
 
